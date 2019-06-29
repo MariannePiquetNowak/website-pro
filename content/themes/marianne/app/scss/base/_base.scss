@@ -1,8 +1,11 @@
 html {
     box-sizing: border-box;
+    font-family: $font-family;
+    color: $color-text;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
 }
+

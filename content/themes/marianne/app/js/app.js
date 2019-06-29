@@ -1,5 +1,8 @@
-var app = {
+app = {
+
     init: function() {
-        console.log('hello world');
+        console.log('init');
     }
 }
+
+$(app.init);
