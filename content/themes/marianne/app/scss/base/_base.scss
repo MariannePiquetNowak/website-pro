@@ -7,5 +7,12 @@ html {
 a {
     text-decoration: none;
     cursor: pointer;
+
+}
+
+.header__nav__links {
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-header;
 }
 

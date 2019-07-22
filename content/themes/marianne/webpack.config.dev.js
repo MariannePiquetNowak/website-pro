@@ -61,6 +61,16 @@ let config = {
             options: {
               sourceMap: true
             }
+          },
+          {
+            loader: 'postcss-loader', // Run postcss actions
+            options: {
+              plugins: function () { // postcss plugins, can be exported to postcss.config.js
+                return [
+                  require('autoprefixer')
+                ];
+              }
+            },
           }
         ]
       },
