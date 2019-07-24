@@ -1,14 +1,19 @@
 $fa-font-path: "~font-awesome/fonts";
 
+$font-family-fallback: 'Arial, sans-serif';
 $font-family: 'Roboto', sans-serif;
 
 $color-text: #000000;
-$color-header: #ffffff;
+$color-text-alt: #ffffff;
+$color-nav: rgb(138, 136, 136);
+$color-bg: rgb(115, 189, 121);
 
-$title-size: 25px;
-$text-size: 18px;
+$bg-color-nav: rgb(54, 54, 54);
+
+$font-size: 16px;
+$font-size-medium: 18px;
+$font-size-large: 20px;
 
 // Breakpoints for responsive
-$breakpoint-small: 500px;
-$breakpoint-medium: 800px;
-$breakpoint-large: 1000px;
+$breakpoint-medium: 500px;
+$breakpoint-large: 800px;

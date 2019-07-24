@@ -1,0 +1,22 @@
+.social-nav {
+    ul {
+        display: flex;
+        background-color: $bg-color-nav;
+        padding: 0.5em 0.5em;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        li {
+            padding: 0.2em;
+            margin: 0 0.5em;
+
+
+            a {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+}

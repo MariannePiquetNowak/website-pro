@@ -7,14 +7,18 @@
 
 @import
     'base/base',
-    'base/typo';
+    'base/typo',
+    'base/animations';
 
 @import
-    'components/post',
-    'components/menu';
+    'layout/banner',
+    'layout/footer',
+    'layout/header',
+    'layout/menu',
+    'layout/posts';
 
 @import
-    'layout/home';
+    'components/social-nav';
 
 @import
     "~bootstrap/scss/bootstrap";

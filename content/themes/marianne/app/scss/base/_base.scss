@@ -4,14 +4,26 @@ html {
     color: $color-text;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.header__nav__links {
-    text-decoration: none;
-    cursor: pointer;
-    color: $color-header;
+
+.header a {
+    color: $color-text-alt;
+    font-weight: bold;
 }
+
+
+
+
+
+
 

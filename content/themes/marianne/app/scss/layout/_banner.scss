@@ -1,0 +1,44 @@
+.banner {
+    background-color: black;
+    min-height: 75vh;
+    padding: 8em 2em 2em 2em;
+
+    // background-image: url('../assets/images/desk.png');
+
+    background: linear-gradient(
+        to right,
+        transparentize($color-nav, 0.5),
+        transparentize($color-nav, 1)),
+        url('../assets/images/desk.png');
+
+    background-size: cover;
+    background-position: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__lead__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $color-text-alt;
+    }
+
+    &__lead__down {
+        display: flex;
+        justify-self: flex-end;
+        color: $color-text-alt;
+        border: 3px solid $color-text-alt;
+        border-radius: 50%;
+        padding: 0.4em;
+    }
+
+}
+
+.fa-globe {
+    padding-right: 0.5em;
+}
+
+

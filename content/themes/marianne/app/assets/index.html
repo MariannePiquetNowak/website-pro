@@ -10,56 +10,40 @@
 
     <div class="wrapper">
         <!-- HEADER -->
-        <header class="header">
+        <header class="header fixed">
             <div class="logo">
                 <a href="#">Marianne</a>
             </div>
-            <div class="navbar navbar-dark bg-dark">
+            <div class="social-nav fixed">
                 <!-- Navbar content -->
-                <ul class="header__nav__menu">
-                    <li>
-                        <a href="#" class="header__nav__links">A propos</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__nav__links">Expériences</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__nav__links">Education</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__nav__links">Compétences</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__nav__links">Projets</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__nav__links">Artbook</a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__nav__links">Contact</a>
-                    </li>
+                <ul class="social-nav__menu">
+                    <li><a href="#" class="social-nav__links">A propos</a></li>
+                    <li><a href="#" class="social-nav__links">Expériences</a></li>
+                    <li><a href="#" class="social-nav__links">Education</a> </li>
+                    <li><a href="#" class="social-nav__links">Compétences</a></li>
+                    <li><a href="#" class="social-nav__links">Projets</a></li>
+                    <li><a href="#" class="social-nav__links">Artbook</a></li>
+                    <li><a href="#" class="social-nav__links">Contact</a></li>
                 </ul>
             </div>
             <a href="" class="ui-button open-menu">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </a>
-
+        </header>
             <!-- SECTION BANNER -->
 
             <section class="banner">
-                <div id="lead">
-                    <img class="lead__pic" src="" alt="">
-                    <div id="lead__content">
-                        <h1 id="name">Marianne Piquet-Nowak</h1>
-                        <h2 class="work">Développeuse Web / Intégratrice</h2>
-                        <p>Brie-Comte-Robert, France (77)</p>
-                    </div>
+
+                <div class="banner__lead__content">
+                    <h1 class="name">Marianne Piquet-Nowak</h1>
+                    <h2 class="work">Développeuse Web / Intégratrice</h2>
+                    <p class="localisation"><i class="fa fa-globe" aria-hidden="true"></i>Brie-Comte-Robert, France (77)</p>
                 </div>
-                <div class="lead__down">
+                <div class="banner__lead__down">
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                 </div>
             </section>
-        </header>
+
 
         <!-- SECTION PRESENTATION -->
 
@@ -67,7 +51,7 @@
             <div class="container container__exp">
                 <div class="column">
                     <div class="col-md-4 profile">
-                            <img src="../images/profile.jpg" alt="profile-pic" class="rounded-circle">
+                        <img src="../images/profile.jpg" alt="profile-pic" class="rounded-circle">
                         <h2 class="heading">Qui suis-je ?</h2>
                     </div>
                     <div class="col-md-8 description">
@@ -260,8 +244,8 @@
         <!-- SECTION FOOTER -->
 
         <footer class="column footer">
-            <div class="footer__social__nav">
-                <ul class="footer__nav__items">
+            <div class="footer__social-nav">
+                <ul class="footer__social-nav__items">
                     <a><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     <a class="fa fa-twitter-square" aria-hidden="true"></i></a>
                     <a class="fa fa-instagram" aria-hidden="true"></i></a>

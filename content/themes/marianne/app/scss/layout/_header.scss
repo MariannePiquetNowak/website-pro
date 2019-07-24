@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    &.fixed {
+        position: fixed;
+    }
+}
