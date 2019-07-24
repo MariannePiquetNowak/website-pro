@@ -1,4 +1,9 @@
-.social-nav {
+.navbar {
+
+    &.fixed{
+        padding: 0;
+    }
+
     ul {
         display: flex;
         background-color: $bg-color-nav;
@@ -6,10 +11,10 @@
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
 
+
         li {
             padding: 0.2em;
             margin: 0 0.5em;
-
 
             a {
                 font-size: 16px;

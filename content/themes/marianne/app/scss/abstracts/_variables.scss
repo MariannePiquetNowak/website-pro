@@ -1,15 +1,20 @@
 $fa-font-path: "~font-awesome/fonts";
 
+// font-family
 $font-family-fallback: 'Arial, sans-serif';
 $font-family: 'Roboto', sans-serif;
+$font-family-subtitle: 'Raleway', sans-serif;
 
 $color-text: #000000;
 $color-text-alt: #ffffff;
 $color-nav: rgb(138, 136, 136);
-$color-bg: rgb(115, 189, 121);
+$color-subtitle: rgb(150, 148, 148);
 
+
+$color-bg: rgb(115, 189, 121);
 $bg-color-nav: rgb(54, 54, 54);
 
+// font-size
 $font-size: 16px;
 $font-size-medium: 18px;
 $font-size-large: 20px;
