@@ -9,32 +9,19 @@
         flex-wrap: wrap;
         margin-top: 2em;
     }
-}
 
-
-
-.description  {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-
-    &__pic {
-        width: 15em;
-        border-radius: 50%;
-        border: 7px solid black;
-        margin: 1em 1em;
-    }
-
-    &__content {
-        padding-left: 2em;
-    }
-
-    @media (min-width: 1000px){
+    &__exp {
         display: flex;
-        flex-direction: row;
         align-items: center;
-        padding: 2em 0 3em 0;
+        flex-wrap: wrap;
+        margin-top: 2em;
     }
+
 }
+
+
+
+
+
+
 
