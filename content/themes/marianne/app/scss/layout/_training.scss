@@ -1,0 +1,83 @@
+.training {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 5px;
+    background-color: $bg-color;
+    font-size: $font-size-text-xp;
+
+    ul {
+        list-style: initial;
+        margin-left: 2em;
+    }
+
+
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        line-height: 1em;
+        margin-bottom: 1em;
+
+        &__school {
+            font-size: $font-size-large;
+        }
+
+        &__date {
+            font-size: $font-size-date-sm;
+            color: $color-subtitle;
+        }
+    }
+
+    &__work {
+        font-size: $font-size-date-sm;
+    }
+
+    @media (min-width: $breakpoint-medium) {
+
+        font-size: $font-size-text-xp-md;
+
+        &__main {
+
+            &__school {
+                font-size: $font-size-xl;
+            }
+
+            &__date {
+                font-size: $font-size-date-md;
+            }
+        }
+
+        &__work {
+            font-size: $font-size-large;
+        }
+    }
+
+    @media (min-width: 1000px) {
+
+        font-size: $font-size-text-xp-lg;
+
+        &__main {
+
+            &__school {
+                font-size: $font-size-title-xp-lg;
+            }
+
+            &__date {
+                font-size: $font-size-date-lg;
+            }
+        }
+
+        &__work {
+            font-size: $font-size-xl;
+        }
+    }
+}

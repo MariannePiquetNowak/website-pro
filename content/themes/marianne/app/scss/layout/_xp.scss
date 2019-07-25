@@ -35,6 +35,8 @@
     &__date {
         color: $color-subtitle;
         font-size: $font-size-date-sm;
+        font-weight: normal;
+        padding-left: 0.5em;
 
     }
 
@@ -60,17 +62,27 @@
 
     &__poste {
         font-size: $font-size-title-xp;
+        color: rgb(190, 190, 190);
+        font-weight: normal;
     }
 
-    // ========== BREAKPOINT ========== \\
+    // ========== BREAKPOINTS ========== \\
 
     @media (min-width: $breakpoint-large){
+
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
 
         &__icon {
             font-size: $font-size-icon-md;
             width: 2em;
             height: 1.8em;
             padding: 1em;
+            position: relative;
+            left: -0.5em;
         }
 
         &__date{
@@ -96,12 +108,26 @@
 
     }
 
+    // ========= MEDIA RESPONSIVE ========== \\
+
     @media (min-width: 1000px){
+        display: flex;
+        justify-content: center;
+
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+
+        }
+
         &__icon {
             font-size: $font-size-icon-lg;
             width: 2em;
             height: 1.8em;
             padding: 1em;
+            position: relative;
+            left: -0.5em;
         }
     }
 
