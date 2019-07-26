@@ -19,10 +19,13 @@
     'layout/about',
     'layout/xp',
     'layout/training',
-    'layout/skills';
+    'layout/skills',
+    'layout/contact';
 
 @import
-    'components/navbar';
+    'components/navbar',
+    'components/contact-form',
+    'components/field';
 
 @import
     "~bootstrap/scss/bootstrap";

@@ -1,0 +1,17 @@
+.contact {
+
+    @media (min-width: $breakpoint-medium){
+
+    display: block;
+    width: 100%;
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1em 0 1em 0;
+
+
+    }
+}
