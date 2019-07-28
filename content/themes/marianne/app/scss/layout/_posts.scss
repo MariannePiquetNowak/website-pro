@@ -25,10 +25,6 @@
         .heading {
             text-align: center;
         }
-
-
-
-
     }
 
     &__exp {
@@ -59,9 +55,15 @@
     }
 
     &__contact {
-        display: flex;
-        justify-content: flex-start;
         min-width: 100% !important;
+        margin-top: 2em;
+        background-color: $bg-color-contact;
+
+            @media (min-width: $breakpoint-large) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            }
 
     }
 

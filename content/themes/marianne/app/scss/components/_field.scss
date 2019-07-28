@@ -1,17 +1,21 @@
 .field {
     width: 100%;
+    padding: 0 .5em;
+
 
     label {
         display: block;
+        font-weight: bold;
         color: $color-nav;
-        line-height: 0.2em;
-        padding: .2em 0;
+        line-height: .2em;
+        padding-bottom: .2em;
     }
 
     input[type=text],input[type=email],textarea {
         width: 100%;
-        padding: 0.5em;
+        padding: .5em;
         border: none;
+        color: $color-text;
         background-color: lighten($bg-color-contact, 5);
         margin-bottom: .7em;
     }
@@ -35,7 +39,10 @@
         width: 100%;
 
         @media (min-width: $breakpoint-large){
+            display: flex;
+            flex-wrap: wrap;
             width: 50%;
+
         }
     }
 }

@@ -1,81 +1,14 @@
-.contact {
+.contact-form {
 
-    width: 100%;
-    background-color: $bg-color-contact;
-    border-top: 1px solid rgb(187, 187, 187);
-    border-bottom: 1px solid rgb(187, 187, 187);
-    margin: 2em 0 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1.5em .5em;
 
-    @media (min-width: $breakpoint-medium){
-
-    display: block;
-    width: 100%;
-    }
-
-    &__form {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 1em 0 1em 0;
-
+    @media (min-width: $breakpoint-large) {
+        border-right: 1px solid rgb(187, 187, 187);
+        padding-right: 1em;
     }
 
 }
 
-.contact-info {
-    display: block;
-    width: 100%;
-    padding: 0 0.5em;
-
-    @media (min-width: 600px){
-        display: flex;
-        flex-wrap: wrap;
-
-
-    }
-
-
-
-    &__part {
-        border-bottom: 1px solid rgb(187, 187, 187);
-        padding: 1em 0 1em 1em;
-        position: relative;
-
-        @media (min-width: 600px){
-
-            border-bottom: none;
-
-
-            &:nth-child(2) {
-                margin: 0 0 0 3em;
-            }
-
-        }
-
-
-        &:last-child {
-            border: none;
-        }
-
-        .fa {
-            position: absolute;
-            left: -0.5em;
-            color: $color-nav;
-            font-size: $font-size-medium;
-        }
-
-        &__label {
-            font-size: $font-size-medium;
-        }
-
-        &__content {
-            color: $color-text;
-
-
-
-            &a {
-                cursor: pointer;
-            }
-        }
-    }
-}
