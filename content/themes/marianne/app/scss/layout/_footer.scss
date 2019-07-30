@@ -6,8 +6,21 @@
     width: 100%;
     padding: 1em 1em;
 
+    @media (min-width: $breakpoint-large) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 5em;
+    }
+
     &__social-nav__items {
-        font-size: $font-size-large;
+        font-size: $font-size-xl;
+
+        .fa {
+            margin: 0 .5em;
+        }
+
     }
 
     &__copyright {
