@@ -10,4 +10,18 @@
     &.fixed {
         position: fixed;
     }
+
+    .ui-button, .logo {
+        margin: 0.4em;
+    }
+
+    .logo {
+    background-color: transparentize($bg-color-nav, 0.7);
+    padding: 0.3em;
+    height: 1.5em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    }
+
 }

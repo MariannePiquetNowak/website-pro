@@ -16,13 +16,14 @@
     'layout/header',
     'layout/menu',
     'layout/posts',
-    'layout/about',
-    'layout/xp',
-    'layout/training',
-    'layout/skills';
+    'layout/artbook';
 
 @import
     'components/navbar',
+    'components/about',
+    'components/xp',
+    'components/training',
+    'components/skills',
     'components/contact-form',
     'components/contact-info',
     'components/field',

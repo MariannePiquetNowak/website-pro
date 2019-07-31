@@ -1,4 +1,6 @@
-app = {
+require('jquery.scrollex');
+
+var app = {
 
     $body: null,
 
@@ -9,6 +11,7 @@ app = {
 
         // Je dépose un event click sur mes boutons ui-button
         $('.ui-button').on('click', app.handleToggleMenu);
+
     },
 
     handleToggleMenu: function(evt) {
@@ -20,6 +23,8 @@ app = {
 
         app.$body.toggleClass('menu-visible');
     }
+
 };
+
 
 $(app.init);
