@@ -16,12 +16,14 @@
 
     &__social-nav__items {
         font-size: $font-size-xl;
+        color: $color-subtitle;
 
         .fa {
             margin: 0 .5em;
         }
 
     }
+
 
     &__copyright {
         font-size: $font-size;

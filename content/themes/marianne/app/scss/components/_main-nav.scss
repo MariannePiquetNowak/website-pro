@@ -13,5 +13,11 @@
         &:last-child {
             border: none;
         }
+
     }
+
+    li a:hover {
+        color: $bg-color-nav;
+    }
+
 }

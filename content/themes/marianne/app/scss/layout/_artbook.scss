@@ -1,0 +1,22 @@
+.wrapper-art {
+    margin: 1em 4em;
+    display: grid;
+
+    @media (min-width: 800px){
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+
+    }
+
+    a {
+        display: grid;
+        align-content: center;
+    }
+}
+
+.img {
+    width: 100%;
+    margin: 1em;
+    padding: .5em;
+}
+
