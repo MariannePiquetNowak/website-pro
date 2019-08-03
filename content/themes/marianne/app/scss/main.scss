@@ -7,14 +7,31 @@
 
 @import
     'base/base',
-    'base/typo';
+    'base/typo',
+    'base/animations';
 
 @import
-    'components/buttons',
-    'components/post';
+    'layout/banner',
+    'layout/footer',
+    'layout/header',
+    'layout/menu',
+    'layout/posts',
+    'layout/artbook';
 
 @import
-    'layout/home';
+    'components/navbar',
+    'components/about',
+    'components/xp',
+    'components/training',
+    'components/skills',
+    'components/contact-form',
+    'components/contact-info',
+    'components/field',
+    'components/main-nav',
+    'components/ui-button';
+
+@import
+    "~bootstrap/scss/bootstrap";
 
 @import
     'shame';

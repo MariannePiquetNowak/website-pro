@@ -1,0 +1,135 @@
+.container__exp {
+    margin: 1em 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .heading {
+        margin-bottom: 1em;
+    }
+}
+.experience  {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    margin: 0.5em;
+
+    &__icon {
+        font-size: $font-size-icon-sm;
+        color: $color-text-alt;
+        border-radius: 50%;
+        background-color: $color-nav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2em;
+        height: 1.8em;
+        margin: 0 0.5em 0 0 ;
+
+    }
+
+    &__content {
+        width: 100%;
+    }
+
+    &__date {
+        color: $color-subtitle;
+        font-size: $font-size-date-sm;
+        font-weight: normal;
+        padding-left: 0.5em;
+
+    }
+
+    &__text {
+        width: 100%;
+        border: 1px solid rgb(228, 226, 226);
+        border-radius: 5px;
+        padding: 0.5em 0.5em 0 0.5em;
+        background-color: $bg-color;
+        margin-bottom: 1em;
+        text-align: left;
+
+        p {
+            font-size: $font-size-text-xp;
+        }
+
+    }
+
+    &__entreprise {
+        font-size: $font-size-title-xp;
+
+    }
+
+    &__poste {
+        font-size: $font-size-title-xp;
+        color: rgb(190, 190, 190);
+        font-weight: normal;
+    }
+
+    // ========== BREAKPOINTS ========== \\
+
+    @media (min-width: $breakpoint-large){
+
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        &__icon {
+            font-size: $font-size-icon-md;
+            width: 2em;
+            height: 1.8em;
+            padding: 1em;
+            position: relative;
+            left: -0.5em;
+        }
+
+        &__date{
+        padding-left: 0.5em;
+        font-size: $font-size-date-lg;
+        }
+
+        &__entreprise {
+            font-size: $font-size-title-xp-lg;
+        }
+
+        &__poste {
+            font-size: $font-size-title-xp-md;
+            margin-bottom: 1.2em;
+
+        }
+
+        p {
+            font-size: $font-size-text-xp-lg;
+            line-height: 1.2em;
+        }
+
+
+    }
+
+    // ========= MEDIA RESPONSIVE ========== \\
+
+    @media (min-width: 1000px){
+        display: flex;
+        justify-content: center;
+
+        &__content{
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+
+        }
+
+        &__icon {
+            font-size: $font-size-icon-lg;
+            width: 2em;
+            height: 1.8em;
+            padding: 1em;
+            position: relative;
+            left: -0.5em;
+        }
+    }
+
+}
+

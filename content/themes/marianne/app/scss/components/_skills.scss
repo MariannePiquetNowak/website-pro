@@ -1,0 +1,25 @@
+.skills {
+
+    &__content {
+        display: flex;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            li {
+                margin: 0.3em;
+                padding: 0.3em;
+                background-color: $bg-color-skill;
+                border-radius: 2px;
+            }
+        }
+
+        @media (min-width: $breakpoint-large) {
+            width: 65%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

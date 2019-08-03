@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+    &.fixed {
+        position: fixed;
+    }
+
+    .ui-button, .logo {
+        margin: 0.4em;
+    }
+
+    .logo {
+    background-color: transparentize($bg-color-nav, 0.7);
+    padding: 0.3em;
+    height: 1.5em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    }
+
+}
+
+.hidden {
+    visibility: hidden;
+}

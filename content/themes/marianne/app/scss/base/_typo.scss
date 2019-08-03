@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html {
+    font-size: $font-size;
+
+    @media (min-width: $breakpoint-medium) {
+        font-size: $font-size-medium;
+    }
+
+    @media (min-width: $breakpoint-large) {
+        font-size: $font-size-large;
+    }
+}
+
+
+
+body {
+    font-family: $font-family-fallback;
+    color: $color-text;
+}

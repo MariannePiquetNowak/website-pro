@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+
+    @media (min-width: $breakpoint-medium) {
+        width: 100%;
+    }
+
+    &__about {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin : 2em 0;
+        padding: 1em 0;
+        background-color: rgb(231, 231, 231);
+        border-top: 1px solid rgb(187, 187, 187);
+        border-bottom: 1px solid rgb(187, 187, 187);
+        min-width: 100% !important;
+
+
+        .heading {
+            text-align: center;
+        }
+    }
+
+    &__exp {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 4em;
+    }
+
+    &__training {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        padding-top: 1em;
+
+        .heading {
+            margin-bottom: 1em;
+        }
+    }
+
+    &__skills {
+
+        .heading {
+            text-align: center;
+            margin: 2em 0 1em 0;
+        }
+    }
+
+    &__contact {
+        min-width: 100% !important;
+        margin-top: 2em;
+        background-color: $bg-color-contact;
+
+            @media (min-width: $breakpoint-large) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            }
+
+    }
+
+}
+
+
+
+
+
+
+

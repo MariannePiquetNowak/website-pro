@@ -1,0 +1,19 @@
+.ui-button {
+    font-size: 1.2em;
+    background-color: transparentize($bg-color-nav, 0.7);
+    padding: 0.3em;
+    height: 1.5em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    i{
+        color: $color-text-alt;
+    }
+
+    &.close-menu {
+        position: absolute;
+        top: 17px;
+        right: 22px;
+    }
+}
