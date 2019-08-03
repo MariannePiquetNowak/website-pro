@@ -36,6 +36,8 @@ var app = {
         evt.preventDefault();
 
         app.$body.toggleClass('menu-visible');
+
+        $('.header').toggleClass('hidden');
     },
 
     openImage: function(evt) {
@@ -47,8 +49,6 @@ var app = {
         $(this).toggleClass('image-zoom')
 
         $('.art').find('.image-zoom');
-
-
 
     },
 
