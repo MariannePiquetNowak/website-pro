@@ -36,8 +36,6 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.0",
     "jquery-ui": "^1.12.1",
-    "jquery.scrollex": "^0.2.1",
-    "jquery.stellar": "^0.6.2",
     "rellax": "^1.10.0",
     "reset-css": "^4.0.1"
   }

@@ -1,22 +1,67 @@
-.wrapper-art {
+.container-art {
     margin: 1em 4em;
     display: grid;
+    justify-content: center;
 
     @media (min-width: 800px){
         display: grid;
         grid-template-columns: 30% 30% 30%;
+        justify-content: center;
 
     }
 
-    a {
-        display: grid;
-        align-content: center;
-    }
 }
 
-.img {
+.art{
+    display: grid;
+    align-items: center;
+    justify-items: center;
     width: 100%;
-    margin: 1em;
-    padding: .5em;
+
+    &__image {
+
+        width: 100%;
+        margin: 1em;
+        padding: .5em;
+
+
+    }
 }
+
+
+.art-zoom {
+
+    img {
+        position: fixed;
+        width: 50%;
+    }
+
+}
+
+.image-zoom {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparentize($color-nav, 0.1);
+
+    img {
+        width: 80%;
+        position: relative;
+
+        @media (min-width: 1300px) {
+            width: 45%;
+        }
+
+    }
+}
+
+.footer-art {
+    background-color: transparentize($bg-color-skill, 0.7);
+}
+
+
+
+
 

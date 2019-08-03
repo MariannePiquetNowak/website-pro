@@ -11,15 +11,20 @@ var app = {
 
     $body: null,
     $banner: null,
+    $art: null,
 
     init: function() {
         console.log('init');
 
         app.$body = $('body');
         app.$banner = $('.banner');
+        app.$art = $('.art');
 
         // Je dépose un event click sur mes boutons ui-button
         $('.ui-button').on('click', app.handleToggleMenu);
+
+        app.$art.on('click', app.openImage);
+
 
     },
 
@@ -31,7 +36,21 @@ var app = {
         evt.preventDefault();
 
         app.$body.toggleClass('menu-visible');
-    }
+    },
+
+    openImage: function(evt) {
+
+        console.log('coucou image');
+
+        evt.preventDefault();
+
+        $(this).toggleClass('image-zoom')
+
+        $('.art').find('.image-zoom');
+
+
+
+    },
 
 };
 
