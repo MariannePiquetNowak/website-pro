@@ -10,7 +10,7 @@
         to right,
         transparentize($color-nav, 0.5),
         transparentize($color-nav, 1)),
-        url('../assets/images/desk.png');
+        url('../assets/images/pic-desk.png');
 
     background-size: cover;
     background-attachment: scroll;
@@ -38,13 +38,21 @@
     }
 
     &__lead__down {
-        display: flex;
-        justify-self: flex-end;
-        color: $color-text-alt;
-        border: 3px solid $color-text-alt;
-        border-radius: 50%;
-        padding: 0.4em;
-        margin-top: 4em;
+
+        a {
+            display: flex;
+            justify-self: flex-end;
+            color: $color-text-alt;
+            border: 3px solid $color-text-alt;
+            border-radius: 50%;
+            padding: 0.4em;
+            margin-top: 4em;
+
+            i {
+                color: white;
+            }
+        }
+
     }
 }
 
