@@ -16,11 +16,31 @@
 
     &__social-nav__items {
         font-size: $font-size-xl;
-        color: $color-subtitle;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            transition-property: font-size;
+            transition-duration: .5s;
+            transition-delay: .1s;
+            margin: 0 .7em;
+
+        }
+
+        a:hover {
+            text-decoration: none;
+            font-size: 30px;
+            margin: 0 .5em;
+
+        }
 
         .fa {
-            margin: 0 .5em;
+            color: $color-subtitle;
+
         }
+
 
     }
 

@@ -18,18 +18,8 @@
                 <!-- <div class="logo"> -->
                     <a class="logo" href="<?= home_url();?>">Accueil</a>
                 <!-- </div> -->
-                <div class="navbar fixed">
-                  <!-- Navbar content -->
-                  <ul class="navbar__menu">
-                    <li><a href="#about" class="navbar__links">A propos</a></li>
-                    <li><a href="#exp" class="navbar__links">Expériences</a></li>
-                    <li><a href="#training" class="navbar__links">Formation</a> </li>
-                    <li><a href="#skills" class="navbar__links">Compétences</a></li>
-                    <li><a href="project" class="navbar__links">Projets</a></li>
-                    <li><a href="artbook.html" class="navbar__links">Artbook</a></li>
-                    <li><a href="#contact" class="navbar__links">Contact</a></li>
-                </ul>
-            </div>
+                    <?php get_template_part('template-parts/menu/nav-main'); ?>
+
             <a href="" class="ui-button open-menu">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </a>
