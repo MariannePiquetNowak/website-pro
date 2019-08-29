@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="banner" style="background-image: url('<?= get_template_directory_uri() . "/public/images/desk.png"; ?>')">
+<section class="banner" style="background-image: url('<?= get_template_directory_uri() . "/public/images/pic-desk.png"; ?>')">
     <div class="banner__lead__content rellax" data-rellax-speed="3">
         <img src="<?= get_template_directory_uri() . "/public/images/logo-website-white.png"; ?>" alt="" class="logo-website">
         <h1 class="name">Marianne Piquet-Nowak</h1>
@@ -11,7 +11,7 @@
 
 <section class="error-404">
 
-
+    <img src="<?= get_template_directory_uri() . "/public/images/404.png"; ?>" alt="wrong-page" class="wrong-page-img">
 </section>
 
 <?php get_footer(); ?>
