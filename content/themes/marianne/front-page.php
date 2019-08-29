@@ -202,7 +202,7 @@
         <div id="contact"></div>
 
         <section class="container container__contact contact" id="contact">
-           <form action="#" class="contact-form">
+           <!-- <form action="#" class="contact-form">
                <div class="field is-half">
                    <label for="name">Nom</label>
                    <input type="text" id="name" name="name">
@@ -218,7 +218,33 @@
                 <div class="field">
                     <input type="submit" class="button__form" value="envoyer">
                 </div>
-           </form>
+           </form> -->
+
+           <!-- <div class="contact-form"> -->
+                <?php // echo do_shortcode('[contact-form-7 id="38" title="Contact"]'); ?>
+           <!-- </div> -->
+
+           <div class="contact-form">
+           <?php
+
+                $args = [
+                    'post_type' => 'page',
+                    'name' => 'contact'
+                ];
+
+                $wp_query = new WP_Query($args);
+
+                if ($wp_query->have_posts()): while($wp_query->have_posts()): $wp_query->the_post();
+
+                    the_content();
+
+                endwhile; endif;
+
+                wp_reset_postdata();
+
+           ?>
+           </div>
+
            <div class="contact-info">
                <div class="contact-info__part">
                    <i class="fa fa-envelope" aria-hidden="true"></i>

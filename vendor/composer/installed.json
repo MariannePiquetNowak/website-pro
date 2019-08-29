@@ -300,5 +300,49 @@
             "zend",
             "zikula"
         ]
+    },
+    {
+        "name": "wpackagist-plugin/contact-form-7",
+        "version": "5.1.4",
+        "version_normalized": "5.1.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+            "reference": "tags/5.1.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/contact-form-7/"
+    },
+    {
+        "name": "wpackagist-plugin/foogallery",
+        "version": "1.8.8",
+        "version_normalized": "1.8.8.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/foogallery/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/foogallery.zip?timestamp=1566823988",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/foogallery/"
     }
 ]

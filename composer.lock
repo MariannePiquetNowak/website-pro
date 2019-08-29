@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "033eaaae1f07f384cda268af4d8dace6",
-    "content-hash": "b8bce9894194b87e3f42234b0b585369",
+    "hash": "155c70a778fd0953309fa73564274cc2",
+    "content-hash": "ce57184a3cff117a3756b684178e8213",
     "packages": [
         {
             "name": "composer/installers",
@@ -256,6 +256,46 @@
                 "wordpress"
             ],
             "time": "2018-11-09 20:10:38"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/foogallery",
+            "version": "1.8.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/foogallery/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/foogallery.zip?timestamp=1566823988",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/foogallery/"
         },
         {
             "name": "wpackagist-plugin/hello-dolly",

@@ -1,14 +1,14 @@
 .field {
     width: 100%;
     padding: 0 .5em;
+    margin-bottom: 1em;
 
 
     label {
         display: block;
         font-weight: bold;
         color: $color-nav;
-        line-height: .2em;
-        padding-bottom: .2em;
+
     }
 
     input[type=text],input[type=email],textarea {
@@ -17,7 +17,7 @@
         border: none;
         color: $color-text;
         background-color: lighten($bg-color-contact, 5);
-        margin-bottom: .7em;
+        // margin-bottom: .7em;
     }
 
     textarea {
@@ -42,6 +42,7 @@
             display: flex;
             flex-wrap: wrap;
             width: 50%;
+
 
         }
     }
