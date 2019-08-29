@@ -15,9 +15,9 @@
         <div class="wrapper">
             <!-- HEADER -->
             <header class="header fixed">
-                <div class="logo">
-                    <a href="<?= home_url();?>"><?php bloginfo('name'); ?></a>
-                </div>
+                <!-- <div class="logo"> -->
+                    <a class="logo" href="<?= home_url();?>">Accueil</a>
+                <!-- </div> -->
                 <div class="navbar fixed">
                   <!-- Navbar content -->
                   <ul class="navbar__menu">

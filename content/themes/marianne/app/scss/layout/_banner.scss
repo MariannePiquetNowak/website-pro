@@ -6,11 +6,11 @@
 
     // background-image: url('../assets/images/desk.png');
 
-    background: linear-gradient(
-        to right,
-        transparentize($color-nav, 0.5),
-        transparentize($color-nav, 1)),
-        url('../assets/images/pic-desk.png');
+    // background: linear-gradient(
+    //     to right,
+    //     transparentize($color-nav, 0.5),
+    //     transparentize($color-nav, 1)),
+    //     url('../assets/images/pic-desk.png');
 
     background-size: cover;
     background-attachment: scroll;
@@ -58,6 +58,16 @@
 
 .fa-globe {
     padding-right: 0.5em;
+}
+
+// .name {
+//     width: 2em;
+//     height: 2em;
+// }
+
+.logo-website {
+    width: 10em;
+    height: 10em;
 }
 
 

@@ -2,16 +2,11 @@
 
      <!-- SECTION BANNER -->
 
-     <section class="banner">
-                <div class="banner__lead__content rellax" data-rellax-speed="3">
-                    <h1 class="name">Marianne Piquet-Nowak</h1>
-                    <h2 class="work">Développeuse Web / Intégratrice</h2>
-                    <p class="localisation"><i class="fa fa-globe" aria-hidden="true"></i>Brie-Comte-Robert, France (77)</p>
-                </div>
-                <div class="banner__lead__down rellax" data-rellax-speed="0">
-                    <a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                </div>
-            </section>
+     <?php if (have_posts()): while (have_posts()): the_post();
+
+        get_template_part('template-parts/content/banner');
+
+    endwhile; endif; ?>
 
 
         <!-- SECTION PRESENTATION -->
@@ -19,25 +14,25 @@
         <div id="about"></div>
 
         <section class="container container__about">
-            <h2 class="heading">Qui suis-je ?</h2>
-            <div class="description">
-                <img src="../images/profile.jpg" alt="profile-pic" class="description__pic">
-                <div class="description__content">
 
-                    <p>Hi ! I'm Marianne Piquet-Nowak. Welcome on my website. </p>
+            <?php
 
-                    <p>I am a 28 year old woman who lives in France, 30 minutes from South-West of Paris.
-                    I am curious, hard working and I do not take risks.</p>
+                $args = [
+                    'category_name' => 'description'
+                ];
 
-                    <p>In my life, I was a banker, a butcher, a manager, and I ended up becoming a web developer.
-                    So I followed an intensive 5-month training at O'Clock School to learn the basics and logic of web development.</p>
+                $wp_query = new WP_Query($args);
 
-                    <p>While I had no notions in code, it led me to enter the wonderful world (and sometimes shame, otherwise it's not funny) of the web development and all technologies that the compose it!
-                    Since then, more than a job, it has become a passion.</p>
+                if ($wp_query->have_posts()): while ($wp_query->have_posts()): $wp_query->the_post();
 
-                    <p>I hope this site will give you an idea of who I am!</p>
-                </div>
-            </div>
+                    get_template_part('template-parts/content/post-excerpt');
+
+                endwhile; endif;
+
+                wp_reset_postdata();
+
+            ?>
+
         </section>
 
         <!-- SECTION EXPERIENCE -->
