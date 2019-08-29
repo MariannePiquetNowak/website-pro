@@ -2,6 +2,10 @@ html {
     box-sizing: border-box;
     font-family: $font-family;
     color: $color-text;
+
+    // a {
+    //     text-decoration: none;
+    // }
 }
 
 .wrapper {
@@ -35,6 +39,12 @@ body {
     &.art-zoom {
         .wrapper {
             filter: blur(8px);
+        }
+    }
+
+    &.admin-bar {
+        .header {
+            top: 32px;
         }
     }
 }

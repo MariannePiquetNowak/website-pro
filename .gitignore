@@ -1,4 +1,10 @@
-wp-config.php
-vendor
-wp
+# wp-config.php
+# vendor
+# wp
 .htaccess
+/content/*
+!/content/plugins/
+/content/plugins/*
+!/content/themes/
+/content/themes/*
+!/content/themes/marianne
