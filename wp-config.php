@@ -19,16 +19,19 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'marianne' );
+define( 'DB_NAME', 'mariannetimarian' );
+// Local : marianne
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'marianne' );
+define( 'DB_USER', 'mariannetimarian' );
+// Local : idem
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', 'marianne' );
+define( 'DB_PASSWORD', 'Cityhunter77170' );
+// Local : idem
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'mariannetimarian.mysql.db' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -69,7 +72,8 @@ define('NONCE_SALT',       'h@$MH>;+nb%865ff4. 2h-.TTOY#pxFs:on+PU|=JZui^B8x2+Zr
 $table_prefix = 'wp_';
 
 // J'indique à WP l'url du nouveau dossier "wp-content"
-define( 'WP_CONTENT_URL', 'http://localhost/projets-perso/website-pro/content' );
+define( 'WP_CONTENT_URL', 'http://www.marianne-piquet-nowak.fr/content/' );
+// localhost/projets-perso/website-pro/content
 // J'indique à WP le chemin du nouveau dossier "wp-content"
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/content' );
 
@@ -143,4 +147,10 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// FTP
+define('FTP_USER', 'mariannetimarian');
+define('FTP_PASS', 'J9yMFykJeuAT');
+define('FTP_HOST', 'ftp.cluster020.hosting.ovh.net');
+define('FTP_SSL', false);
 

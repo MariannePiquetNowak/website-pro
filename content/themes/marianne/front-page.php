@@ -51,7 +51,18 @@
                     <div class="experience__text">
                         <h2 class="experience__entreprise">O'Clock - Projet Kiemta'o</h2>
                         <h3 class="experience__poste">Git Master & partner lead dev-front</h3>
-                        <p>descrition</p>
+                        <p>Un projet 100% WordPress, 100% filles et 100% bonne ambiance.
+                        Le projet Kiemta'o à été pensé par Anne-Laure, Product Owner et a été joyeusement mis en oeuvre avec l'aide de
+                        Timia - Lead dev back et Audie - Lead Dev Front</p>
+                        <p>L’objectif de la plateforme est de faciliter la communication et encourager
+                        la bonne ambiance dans une organisation. On ajoute ses amis, on créer ses teams et on
+                        balance son Kiemtao (= ton humeur, ta citation du jour).</p>
+                        <p>C’est du 100% WordPress pour la communication facile avec la base de données mais sans aucun plugin WP.
+                        Nous avons créé une sidebar en toggle pour la version responsive, car oui, c’est responsive.
+                        Pour une prochaine version, nous avions de nouveaux widgets en tête : calendrier d’anniversaire, forum d’entraide (issues) etc.</p>
+
+                        <strong>Technos utilisées</strong> : Wordpress <em>(et c'est pas un blog ;D )</em>
+                        <strong>Présentation du projet</strong> : <a class="live-link" href="https://youtu.be/Q4waFUpPzjA?t=2540" alt="kiemtao-project">Kiemta'o Project</a>
                     </div>
                 </div>
             </div>
@@ -197,75 +208,7 @@
             </div>
         </section>
 
-        <!-- SECTION CONTACT -->
 
-        <div id="contact"></div>
-
-        <section class="container container__contact contact" id="contact">
-           <!-- <form action="#" class="contact-form">
-               <div class="field is-half">
-                   <label for="name">Nom</label>
-                   <input type="text" id="name" name="name">
-               </div>
-               <div class="field is-half">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
-                </div>
-                <div class="field">
-                    <input type="submit" class="button__form" value="envoyer">
-                </div>
-           </form> -->
-
-           <!-- <div class="contact-form"> -->
-                <?php // echo do_shortcode('[contact-form-7 id="38" title="Contact"]'); ?>
-           <!-- </div> -->
-
-           <div class="contact-form">
-           <?php
-
-                $args = [
-                    'post_type' => 'page',
-                    'name' => 'contact'
-                ];
-
-                $wp_query = new WP_Query($args);
-
-                if ($wp_query->have_posts()): while($wp_query->have_posts()): $wp_query->the_post();
-
-                    the_content();
-
-                endwhile; endif;
-
-                wp_reset_postdata();
-
-           ?>
-           </div>
-
-           <div class="contact-info">
-               <div class="contact-info__part">
-                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                   <h4 class="contact-info__part__label">Email</h4>
-                   <a href="mailto:mariannexpiquet@gmail.com?subject=Contact" class="contact-info__part__content">mariannexpiquet@gmail.com</a>
-               </div>
-               <div class="contact-info__part">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <h4 class="contact-info__part__label">Téléphone</h4>
-                    <a href="tel:+33750046765" class="contact-info__part__content">+33 7 50 04 67 65</a>
-                </div>
-                <div class="contact-info__part">
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    <h4 class="contact-info__part__label">Adresse</h4>
-                    <p class="contact-info__part__content">25 rue du Martinet<br />
-                        Bâtiment C<br />
-                        77170 Brie-Comte-Robert
-                    </p>
-                </div>
-           </div>
-        </section>
 
         <!-- SECTION FOOTER -->
 
