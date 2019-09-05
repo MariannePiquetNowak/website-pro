@@ -6,10 +6,11 @@
 
     ul {
         display: flex;
-        background-color: $bg-color-nav;
+        // background-color: $bg-color-nav;
         padding: 0.5em 0.5em;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+        // border-bottom-left-radius: 5px;
+        // border-bottom-right-radius: 5px;
+        margin-bottom: 0;
 
 
         li {
@@ -26,7 +27,7 @@
         }
 
         a:hover {
-            color: rgb(56, 95, 56)
+            color: rgb(188, 189, 188)
         }
 
     }
