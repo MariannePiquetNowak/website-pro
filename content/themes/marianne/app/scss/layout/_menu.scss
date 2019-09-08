@@ -1,23 +1,23 @@
 .menu {
     visibility: hidden;
-    position: fixed;
-    top:0;
+    // position: fixed;
+    // top:0;
     // right:0;
-    bottom:0;
+    // bottom:0;
     // left:0;
-    background-color: transparentize($color-nav, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%; // dernière modif responsive
+    // background-color: transparentize($color-nav, 0.1);
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // width: 100%; // dernière modif responsive
 
     @media (min-width: $breakpoint-large) {
 
         width: $breakpoint-large;
         margin: auto;
-        left:0; // dernière modif responsive
-        right:0; // dernière modif responsive
+        // left:0; // dernière modif responsive
+        // right:0; // dernière modif responsive
 
     }
 }

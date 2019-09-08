@@ -25,6 +25,10 @@
         min-height: 50vh;
     }
 
+    @media (max-width: $breakpoint-large){
+        background-attachment: fixed;
+    }
+
 
     &__lead__content {
         display: flex;

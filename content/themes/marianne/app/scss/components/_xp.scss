@@ -44,13 +44,14 @@
         width: 100%;
         border: 1px solid rgb(228, 226, 226);
         border-radius: 5px;
-        padding: 0.5em 0.5em 0 0.5em;
+        padding: 1em;
         background-color: $bg-color;
         margin-bottom: 1em;
         text-align: left;
 
         p {
             font-size: $font-size-text-xp;
+
         }
 
     }
@@ -102,7 +103,7 @@
 
         p {
             font-size: $font-size-text-xp-lg;
-            line-height: 1.2em;
+            line-height: 1.5em;
         }
 
 
