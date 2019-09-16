@@ -20,7 +20,7 @@
                 <!-- </div> -->
                     <?php get_template_part('template-parts/menu/nav-main'); ?>
 
-            <a href="" class="ui-button open-menu">
+            <a href="" class="ui-button open-menu" title="Autres pages">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </a>
         </header>

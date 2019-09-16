@@ -11,7 +11,7 @@
 
 <section class="error-404">
 
-    <img src="<?= get_template_directory_uri() . "/public/images/404.png"; ?>" alt="wrong-page" class="wrong-page-img">
+    <img src="<?= get_template_directory_uri() . "/public/images/404.png"; ?>" alt="wrong-page" >
 </section>
 
 <?php get_footer(); ?>

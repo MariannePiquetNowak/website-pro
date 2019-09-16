@@ -12,7 +12,8 @@ if (!function_exists('marianne_setup')) :
 
         // Format des posts
         add_theme_support('post-formats', [
-            'gallery'
+            'gallery',
+            'quote'
         ]);
 
         // Je déclare à WP que mon thème supporte les menus
@@ -23,6 +24,8 @@ if (!function_exists('marianne_setup')) :
             'social' => 'Menu des réseau sociaux',
             'burger' => 'Menu responsive'
         ]);
+
+
 
     }
 

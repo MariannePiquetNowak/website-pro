@@ -10,10 +10,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%; // dernière modif responsive
 
     @media (min-width: $breakpoint-large) {
 
         width: $breakpoint-large;
         margin: auto;
+        // left:0; // dernière modif responsive
+        // right:0; // dernière modif responsive
+
     }
 }

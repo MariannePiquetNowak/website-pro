@@ -23,10 +23,12 @@ body {
     &.menu-visible {
         .wrapper {
             filter: blur(8px);
+
         }
 
         .menu {
             visibility: visible;
+
 
             a {
                 color: $color-text-alt;
