@@ -1,6 +1,6 @@
-# wp-config.php
-# vendor
-# wp
+wp-config.php
+vendor
+wp
 .htaccess
 /content/*
 !/content/plugins/
