@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "155c70a778fd0953309fa73564274cc2",
-    "content-hash": "ce57184a3cff117a3756b684178e8213",
+    "hash": "d6c0c69bb9e0d413ecd41281f8714f2a",
+    "content-hash": "01283f939962d5d5c1bfbbeaa3409ba3",
     "packages": [
         {
             "name": "composer/installers",
@@ -258,6 +258,26 @@
             "time": "2018-11-09 20:10:38"
         },
         {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.8.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "5.1.4",
             "source": {
@@ -276,6 +296,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/font-awesome-field",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/font-awesome-field/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/font-awesome-field.zip?timestamp=1417076083",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/font-awesome-field/"
         },
         {
             "name": "wpackagist-plugin/foogallery",

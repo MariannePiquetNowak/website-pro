@@ -17,7 +17,9 @@
         "wpackagist-theme/twentynineteen": "*",
         "wpackagist-plugin/hello-dolly": "*",
         "wpackagist-plugin/contact-form-7": "^5.1",
-        "wpackagist-plugin/foogallery": "^1.8"
+        "wpackagist-plugin/foogallery": "^1.8",
+        "wpackagist-plugin/advanced-custom-fields": "^5.8",
+        "wpackagist-plugin/font-awesome-field": "^1.1"
     },
     "extra": {
         "wordpress-install-dir": "wp",
