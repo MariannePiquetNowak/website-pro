@@ -42,11 +42,30 @@
         <section class="container container__exp">
             <h2 class="heading">Expériences</h2>
 
+            <?php
+
+                $args = [
+                    'category_name' => 'experiences',
+                    // 'posts_per_page' => -1
+                ];
+
+                    $wp_query = new WP_Query($args);
+
+                    if ($wp_query->have_posts()): while ($wp_query->have_posts()): $wp_query->the_post();
+
+                        get_template_part('template-parts/content/experiences', get_post_format());
+
+                    endwhile; endif;
+
+                wp_reset_postdata();
+
+                ?>
+
             <div class="experience">
                 <div class="experience__icon">
                     <i class="fa fa-code" aria-hidden="true"></i>
                 </div>
-                <div class="experience__content">
+                <div class="experience__content
                     <h2 class="experience__date">Janvier 2019 - Juin 2019</h2>
                     <div class="experience__text">
                         <h2 class="experience__entreprise">O'Clock - Projet Kiemta'o</h2>
